@@ -39,9 +39,9 @@ const PORT = process.env.PORT;
 //     res.send(`Hello About form the server`)
 // });
 
-app.get('/contact', (req, res) => {
-    res.send(`Hello Contact form the server`)
-});
+// app.get('/contact', (req, res) => {
+//     res.send(`Hello Contact form the server`)
+// });
 
 app.get('/login', (req, res) => {
     res.send(`Hello Login form the server`)

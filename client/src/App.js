@@ -8,6 +8,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Login from './Components/Login'
 import Signup from './Components/Signup'
+import Logout from './Components/Logout'
 import Errorpage from './Components/Errorpage'
 
 const App = () => {
@@ -34,6 +35,10 @@ const App = () => {
 
         <Route path='/signup'>
           <Signup />
+        </Route>
+
+        <Route path='/logout'>
+          <Logout />
         </Route>
 
         <Route path="*">

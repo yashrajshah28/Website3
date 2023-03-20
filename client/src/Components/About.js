@@ -29,7 +29,7 @@ const About = () => {
 
     } catch (err) {
       console.log(err);
-      history.push('/login');
+      history.push('/login');  // not showing about page after login (showing 401)
     }
   }
 
